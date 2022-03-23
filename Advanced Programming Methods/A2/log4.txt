@@ -1,0 +1,382 @@
+-----------------START STATE------------
+----------Execution Stack: --------
+string varf
+varf='test.in'
+(open file 'varf')
+int varc
+varc=0
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+closeFile(varf)
+
+
+
+
+
+
+
+
+
+-------- Symbol Table: --------
+{}
+---------- Output: -----------
+[]
+---------- File Table -----
+{}
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+varf='test.in'
+(open file 'varf')
+int varc
+varc=0
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+closeFile(varf)
+
+
+
+
+
+
+
+string varf
+-------- Symbol Table: --------
+{}
+---------- Output: -----------
+[]
+---------- File Table -----
+{}
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+varf='test.in'
+(open file 'varf')
+int varc
+varc=0
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+closeFile(varf)
+
+
+
+
+
+
+
+
+-------- Symbol Table: --------
+{varf=''}
+---------- Output: -----------
+[]
+---------- File Table -----
+{}
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+(open file 'varf')
+int varc
+varc=0
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+closeFile(varf)
+
+
+
+
+
+
+varf='test.in'
+-------- Symbol Table: --------
+{varf=''}
+---------- Output: -----------
+[]
+---------- File Table -----
+{}
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+(open file 'varf')
+int varc
+varc=0
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+closeFile(varf)
+
+
+
+
+
+
+
+-------- Symbol Table: --------
+{varf='test.in'}
+---------- Output: -----------
+[]
+---------- File Table -----
+{}
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+int varc
+varc=0
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+closeFile(varf)
+
+
+
+
+
+(open file 'varf')
+-------- Symbol Table: --------
+{varf='test.in'}
+---------- Output: -----------
+[]
+---------- File Table -----
+{}
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+int varc
+varc=0
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+closeFile(varf)
+
+
+
+
+
+
+-------- Symbol Table: --------
+{varf='test.in'}
+---------- Output: -----------
+[]
+---------- File Table -----
+{'test.in'=java.io.BufferedReader@1a86f2f1}
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+varc=0
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+closeFile(varf)
+
+
+
+
+int varc
+-------- Symbol Table: --------
+{varf='test.in'}
+---------- Output: -----------
+[]
+---------- File Table -----
+{'test.in'=java.io.BufferedReader@1a86f2f1}
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+varc=0
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+closeFile(varf)
+
+
+
+
+
+-------- Symbol Table: --------
+{varf='test.in', varc=0}
+---------- Output: -----------
+[]
+---------- File Table -----
+{'test.in'=java.io.BufferedReader@1a86f2f1}
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+closeFile(varf)
+
+
+
+varc=0
+-------- Symbol Table: --------
+{varf='test.in', varc=0}
+---------- Output: -----------
+[]
+---------- File Table -----
+{'test.in'=java.io.BufferedReader@1a86f2f1}
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+(read_file 'varf')
+print(varc)
+(read_file 'varf')
+print(varc)
+closeFile(varf)
+
+
+
+
+-------- Symbol Table: --------
+{varf='test.in', varc=0}
+---------- Output: -----------
+[]
+---------- File Table -----
+{'test.in'=java.io.BufferedReader@1a86f2f1}
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+print(varc)
+(read_file 'varf')
+print(varc)
+closeFile(varf)
+
+
+(read_file 'varf')
+-------- Symbol Table: --------
+{varf='test.in', varc=0}
+---------- Output: -----------
+[]
+---------- File Table -----
+{'test.in'=java.io.BufferedReader@1a86f2f1}
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+print(varc)
+(read_file 'varf')
+print(varc)
+closeFile(varf)
+
+
+
+-------- Symbol Table: --------
+{varf='test.in', varc=1}
+---------- Output: -----------
+[]
+---------- File Table -----
+{'test.in'=java.io.BufferedReader@1a86f2f1}
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+(read_file 'varf')
+print(varc)
+closeFile(varf)
+
+print(varc)
+-------- Symbol Table: --------
+{varf='test.in', varc=1}
+---------- Output: -----------
+[]
+---------- File Table -----
+{'test.in'=java.io.BufferedReader@1a86f2f1}
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+(read_file 'varf')
+print(varc)
+closeFile(varf)
+
+
+-------- Symbol Table: --------
+{varf='test.in', varc=1}
+---------- Output: -----------
+[1]
+---------- File Table -----
+{'test.in'=java.io.BufferedReader@1a86f2f1}
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+print(varc)
+closeFile(varf)
+(read_file 'varf')
+-------- Symbol Table: --------
+{varf='test.in', varc=1}
+---------- Output: -----------
+[1]
+---------- File Table -----
+{'test.in'=java.io.BufferedReader@1a86f2f1}
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+print(varc)
+closeFile(varf)
+
+-------- Symbol Table: --------
+{varf='test.in', varc=4}
+---------- Output: -----------
+[1]
+---------- File Table -----
+{'test.in'=java.io.BufferedReader@1a86f2f1}
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+closeFile(varf)print(varc)
+-------- Symbol Table: --------
+{varf='test.in', varc=4}
+---------- Output: -----------
+[1]
+---------- File Table -----
+{'test.in'=java.io.BufferedReader@1a86f2f1}
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+closeFile(varf)
+-------- Symbol Table: --------
+{varf='test.in', varc=4}
+---------- Output: -----------
+[1, 4]
+---------- File Table -----
+{'test.in'=java.io.BufferedReader@1a86f2f1}
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+
+-------- Symbol Table: --------
+{varf='test.in', varc=4}
+---------- Output: -----------
+[1, 4]
+---------- File Table -----
+{}
+------------END STATE-----------
+

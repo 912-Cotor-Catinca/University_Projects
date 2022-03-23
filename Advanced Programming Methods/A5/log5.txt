@@ -1,0 +1,360 @@
+-----------------START STATE------------
+----------Execution Stack: --------
+int v
+v=4
+while (v > 0) { (print(v);v=v - 1)}
+print(v)
+
+
+
+-------- Symbol Table: --------
+
+---------- Output: -----------
+[]
+---------- File Table -----
+
+------------Heap-----------
+
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+v=4
+while (v > 0) { (print(v);v=v - 1)}
+print(v)
+
+int v
+-------- Symbol Table: --------
+
+---------- Output: -----------
+[]
+---------- File Table -----
+
+------------Heap-----------
+
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+v=4
+while (v > 0) { (print(v);v=v - 1)}
+print(v)
+
+
+-------- Symbol Table: --------
+Key: v, Value: 0
+
+---------- Output: -----------
+[]
+---------- File Table -----
+
+------------Heap-----------
+
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+while (v > 0) { (print(v);v=v - 1)}
+print(v)
+v=4
+-------- Symbol Table: --------
+Key: v, Value: 0
+
+---------- Output: -----------
+[]
+---------- File Table -----
+
+------------Heap-----------
+
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+while (v > 0) { (print(v);v=v - 1)}
+print(v)
+
+-------- Symbol Table: --------
+Key: v, Value: 4
+
+---------- Output: -----------
+[]
+---------- File Table -----
+
+------------Heap-----------
+
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+print(v)while (v > 0) { (print(v);v=v - 1)}
+-------- Symbol Table: --------
+Key: v, Value: 4
+
+---------- Output: -----------
+[]
+---------- File Table -----
+
+------------Heap-----------
+
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+print(v)while (v > 0) { (print(v);v=v - 1)}print(v)
+v=v - 1
+
+-------- Symbol Table: --------
+Key: v, Value: 4
+
+---------- Output: -----------
+[]
+---------- File Table -----
+
+------------Heap-----------
+
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+print(v)while (v > 0) { (print(v);v=v - 1)}v=v - 1print(v)
+-------- Symbol Table: --------
+Key: v, Value: 4
+
+---------- Output: -----------
+[]
+---------- File Table -----
+
+------------Heap-----------
+
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+print(v)while (v > 0) { (print(v);v=v - 1)}v=v - 1
+-------- Symbol Table: --------
+Key: v, Value: 4
+
+---------- Output: -----------
+[4]
+---------- File Table -----
+
+------------Heap-----------
+
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+print(v)while (v > 0) { (print(v);v=v - 1)}
+-------- Symbol Table: --------
+Key: v, Value: 3
+
+---------- Output: -----------
+[4]
+---------- File Table -----
+
+------------Heap-----------
+
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+print(v)while (v > 0) { (print(v);v=v - 1)}print(v)
+v=v - 1
+
+-------- Symbol Table: --------
+Key: v, Value: 3
+
+---------- Output: -----------
+[4]
+---------- File Table -----
+
+------------Heap-----------
+
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+print(v)while (v > 0) { (print(v);v=v - 1)}v=v - 1print(v)
+-------- Symbol Table: --------
+Key: v, Value: 3
+
+---------- Output: -----------
+[4]
+---------- File Table -----
+
+------------Heap-----------
+
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+print(v)while (v > 0) { (print(v);v=v - 1)}v=v - 1
+-------- Symbol Table: --------
+Key: v, Value: 3
+
+---------- Output: -----------
+[4, 3]
+---------- File Table -----
+
+------------Heap-----------
+
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+print(v)while (v > 0) { (print(v);v=v - 1)}
+-------- Symbol Table: --------
+Key: v, Value: 2
+
+---------- Output: -----------
+[4, 3]
+---------- File Table -----
+
+------------Heap-----------
+
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+print(v)while (v > 0) { (print(v);v=v - 1)}print(v)
+v=v - 1
+
+-------- Symbol Table: --------
+Key: v, Value: 2
+
+---------- Output: -----------
+[4, 3]
+---------- File Table -----
+
+------------Heap-----------
+
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+print(v)while (v > 0) { (print(v);v=v - 1)}v=v - 1print(v)
+-------- Symbol Table: --------
+Key: v, Value: 2
+
+---------- Output: -----------
+[4, 3]
+---------- File Table -----
+
+------------Heap-----------
+
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+print(v)while (v > 0) { (print(v);v=v - 1)}v=v - 1
+-------- Symbol Table: --------
+Key: v, Value: 2
+
+---------- Output: -----------
+[4, 3, 2]
+---------- File Table -----
+
+------------Heap-----------
+
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+print(v)while (v > 0) { (print(v);v=v - 1)}
+-------- Symbol Table: --------
+Key: v, Value: 1
+
+---------- Output: -----------
+[4, 3, 2]
+---------- File Table -----
+
+------------Heap-----------
+
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+print(v)while (v > 0) { (print(v);v=v - 1)}print(v)
+v=v - 1
+
+-------- Symbol Table: --------
+Key: v, Value: 1
+
+---------- Output: -----------
+[4, 3, 2]
+---------- File Table -----
+
+------------Heap-----------
+
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+print(v)while (v > 0) { (print(v);v=v - 1)}v=v - 1print(v)
+-------- Symbol Table: --------
+Key: v, Value: 1
+
+---------- Output: -----------
+[4, 3, 2]
+---------- File Table -----
+
+------------Heap-----------
+
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+print(v)while (v > 0) { (print(v);v=v - 1)}v=v - 1
+-------- Symbol Table: --------
+Key: v, Value: 1
+
+---------- Output: -----------
+[4, 3, 2, 1]
+---------- File Table -----
+
+------------Heap-----------
+
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+print(v)while (v > 0) { (print(v);v=v - 1)}
+-------- Symbol Table: --------
+Key: v, Value: 0
+
+---------- Output: -----------
+[4, 3, 2, 1]
+---------- File Table -----
+
+------------Heap-----------
+
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+print(v)
+-------- Symbol Table: --------
+Key: v, Value: 0
+
+---------- Output: -----------
+[4, 3, 2, 1]
+---------- File Table -----
+
+------------Heap-----------
+
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+
+-------- Symbol Table: --------
+Key: v, Value: 0
+
+---------- Output: -----------
+[4, 3, 2, 1, 0]
+---------- File Table -----
+
+------------Heap-----------
+
+------------END STATE-----------
+

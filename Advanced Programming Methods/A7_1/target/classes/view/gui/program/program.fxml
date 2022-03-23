@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="775.0" prefWidth="1165.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.gui.program.ProgramController">
+    <TableView fx:id="heapTable" layoutX="50.0" layoutY="50.0" prefHeight="300.0" prefWidth="300.0">
+        <columns>
+            <TableColumn fx:id="addressColumn" prefWidth="150.0" text="Address" />
+            <TableColumn fx:id="valueColumn" prefWidth="150.0" text="Value" />
+        </columns>
+    </TableView>
+    <Label layoutX="170.0" layoutY="25.0" text="Heap Table" />
+    <ListView fx:id="outputList" layoutX="432.0" layoutY="50.0" prefHeight="300.0" prefWidth="300.0" />
+    <Label layoutX="562.0" layoutY="25.0" text="Output" />
+    <ListView fx:id="fileList" layoutX="809.0" layoutY="50.0" prefHeight="300.0" prefWidth="300.0" />
+    <Label layoutX="934.0" layoutY="25.0" text="File Table" />
+    <Label layoutX="134.0" layoutY="364.0" text="Program state identifiers" />
+    <ListView fx:id="prgStateList" layoutX="50.0" layoutY="389.0" prefHeight="300.0" prefWidth="300.0" />
+    <ListView fx:id="exeStackList" layoutX="432.0" layoutY="389.0" prefHeight="300.0" prefWidth="300.0" />
+    <Label layoutX="540.0" layoutY="364.0" text="Execution stack" />
+    <TableView fx:id="symTable" layoutX="809.0" layoutY="389.0" prefHeight="300.0" prefWidth="300.0">
+        <columns>
+            <TableColumn fx:id="symVariableColumn" prefWidth="150.0" text="Variable" />
+            <TableColumn fx:id="symValueColumn" prefWidth="150.0" text="Value" />
+        </columns>
+    </TableView>
+    <Label layoutX="924.0" layoutY="364.0" text="Symbol table" />
+    <TextField fx:id="numberOfPrgStates" editable="false" layoutX="46.0" layoutY="732.0" />
+    <Label layoutX="50.0" layoutY="708.0" text="Number of program states" />
+    <Button fx:id="oneStepButton" layoutX="230.0" layoutY="714.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="144.0" text="One Step" />
+
+</AnchorPane>

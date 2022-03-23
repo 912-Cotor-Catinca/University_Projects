@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane prefHeight="732.0" prefWidth="1017.0" style="-fx-background-color: #C0EACE;"
+            xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="view.gui.program.ProgramController">
+    <TextField fx:id="numberOfPrgStates" layoutX="507.0" layoutY="331.0" prefHeight="31.0" prefWidth="209.0"/>
+    <Label layoutX="510.0" layoutY="276.0" text="Number of program states">
+        <font>
+            <Font name="Times New Roman" size="14.0"/>
+        </font>
+    </Label>
+    <TableView fx:id="heapTable" layoutX="29.0" layoutY="65.0" prefHeight="180.0" prefWidth="209.0">
+        <columns>
+            <TableColumn fx:id="addressColumn" prefWidth="103.0" text="Address"/>
+            <TableColumn fx:id="valueColumn" prefWidth="105.0" text="Value"/>
+        </columns>
+    </TableView>
+    <Label layoutX="75.0" layoutY="40.0" text="Heap Table">
+        <font>
+            <Font name="Times New Roman" size="14.0"/>
+        </font>
+    </Label>
+    <Label layoutX="561.0" layoutY="40.0" text="File Table">
+        <font>
+            <Font name="Times New Roman" size="14.0"/>
+        </font>
+    </Label>
+    <Label layoutX="298.0" layoutY="40.0" text="Output List">
+        <font>
+            <Font name="Times New Roman" size="14.0"/>
+        </font>
+    </Label>
+    <ListView fx:id="outputList" layoutX="267.0" layoutY="65.0" prefHeight="180.0" prefWidth="209.0"/>
+    <ListView fx:id="fileList" layoutX="506.0" layoutY="65.0" prefHeight="180.0" prefWidth="209.0"/>
+
+    <ListView fx:id="prgStateList" layoutX="29.0" layoutY="321.0" prefHeight="156.0" prefWidth="217.0"/>
+    <Label layoutX="25.0" layoutY="276.0" text="List of program state identifiers">
+        <font>
+            <Font name="Times New Roman" size="14.0"/>
+        </font>
+    </Label>
+
+    <TableView fx:id="symTable" layoutX="259.0" layoutY="321.0" prefHeight="156.0" prefWidth="217.0">
+        <columns>
+            <TableColumn fx:id="symVariableColumn" prefWidth="102.0" text="Name"/>
+            <TableColumn fx:id="symValueColumn" prefWidth="106.0" text="Value"/>
+        </columns>
+    </TableView>
+    <Label layoutX="305.0" layoutY="276.0" text="Symbol Table">
+        <font>
+            <Font name="Times New Roman" size="14.0"/>
+        </font>
+    </Label>
+    <ListView fx:id="exeStackList" layoutX="749.0" layoutY="65.0" prefHeight="180.0" prefWidth="234.0"/>
+    <Button fx:id="oneStepButton" layoutX="525.0" layoutY="399.0" mnemonicParsing="false" prefHeight="58.0"
+            prefWidth="173.0" style="-fx-background-color: #9ED1AF" text="One step">
+        <font>
+            <Font name="Times New Roman" size="14.0"/>
+        </font>
+    </Button>
+    <Label layoutX="790.0" layoutY="40.0" text="Execution Stack">
+        <font>
+            <Font name="Times New Roman" size="14.0"/>
+        </font>
+    </Label>
+
+</AnchorPane>

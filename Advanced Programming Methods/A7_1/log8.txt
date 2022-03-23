@@ -1,0 +1,349 @@
+-----------------START STATE------------
+----------Execution Stack: --------
+Ref(int) v
+wH(v = 20)
+print(rh(v))
+wH(v = 30)
+print(rh(v) + 5)
+
+
+
+
+-------- Symbol Table: --------
+
+---------- Output: -----------
+[]
+---------- File Table -----
+
+------------Heap-----------
+
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+wH(v = 20)
+print(rh(v))
+wH(v = 30)
+print(rh(v) + 5)
+
+
+Ref(int) v
+-------- Symbol Table: --------
+
+---------- Output: -----------
+[]
+---------- File Table -----
+
+------------Heap-----------
+
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+wH(v = 20)
+print(rh(v))
+wH(v = 30)
+print(rh(v) + 5)
+
+
+
+-------- Symbol Table: --------
+Key: v, Value: (0, int)
+
+---------- Output: -----------
+[]
+---------- File Table -----
+
+------------Heap-----------
+
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+print(rh(v))
+wH(v = 30)
+print(rh(v) + 5)
+
+wH(v = 20)
+-------- Symbol Table: --------
+Key: v, Value: (0, int)
+
+---------- Output: -----------
+[]
+---------- File Table -----
+
+------------Heap-----------
+
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+print(rh(v))
+wH(v = 30)
+print(rh(v) + 5)
+
+
+-------- Symbol Table: --------
+Key: v, Value: (1, int)
+
+---------- Output: -----------
+[]
+---------- File Table -----
+
+------------Heap-----------
+Key: 1, Value: 20
+
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+wH(v = 30)
+print(rh(v) + 5)
+print(rh(v))
+-------- Symbol Table: --------
+Key: v, Value: (1, int)
+
+---------- Output: -----------
+[]
+---------- File Table -----
+
+------------Heap-----------
+Key: 1, Value: 20
+
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+wH(v = 30)
+print(rh(v) + 5)
+
+-------- Symbol Table: --------
+Key: v, Value: (1, int)
+
+---------- Output: -----------
+[20]
+---------- File Table -----
+
+------------Heap-----------
+Key: 1, Value: 20
+
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+print(rh(v) + 5)wH(v = 30)
+-------- Symbol Table: --------
+Key: v, Value: (1, int)
+
+---------- Output: -----------
+[20]
+---------- File Table -----
+
+------------Heap-----------
+Key: 1, Value: 20
+
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+print(rh(v) + 5)
+-------- Symbol Table: --------
+Key: v, Value: (1, int)
+
+---------- Output: -----------
+[20]
+---------- File Table -----
+
+------------Heap-----------
+Key: 1, Value: 30
+
+------------END STATE-----------
+
+-----------------START STATE------------
+----------Execution Stack: --------
+
+-------- Symbol Table: --------
+Key: v, Value: (1, int)
+
+---------- Output: -----------
+[20, 35]
+---------- File Table -----
+
+------------Heap-----------
+Key: 1, Value: 30
+
+------------END STATE-----------
+
+-----------------START STATE------------
+---------------------ID-----------------
+1
+----------Execution Stack: --------
+wH(v = 20)
+print(rh(v))
+wH(v = 30)
+print(rh(v) + 5)
+
+
+Ref(int) v
+-------- Symbol Table: --------
+
+---------- Output: -----------
+[]
+---------- File Table -----
+
+------------Heap-----------
+
+------------END STATE-----------
+
+-----------------START STATE------------
+---------------------ID-----------------
+1
+----------Execution Stack: --------
+wH(v = 20)
+print(rh(v))
+wH(v = 30)
+print(rh(v) + 5)
+
+
+
+-------- Symbol Table: --------
+Key: v, Value: (0, int)
+
+---------- Output: -----------
+[]
+---------- File Table -----
+
+------------Heap-----------
+
+------------END STATE-----------
+
+-----------------START STATE------------
+---------------------ID-----------------
+1
+----------Execution Stack: --------
+print(rh(v))
+wH(v = 30)
+print(rh(v) + 5)
+
+wH(v = 20)
+-------- Symbol Table: --------
+Key: v, Value: (0, int)
+
+---------- Output: -----------
+[]
+---------- File Table -----
+
+------------Heap-----------
+
+------------END STATE-----------
+
+-----------------START STATE------------
+---------------------ID-----------------
+1
+----------Execution Stack: --------
+print(rh(v))
+wH(v = 30)
+print(rh(v) + 5)
+
+
+-------- Symbol Table: --------
+Key: v, Value: (1, int)
+
+---------- Output: -----------
+[]
+---------- File Table -----
+
+------------Heap-----------
+Key: 1, Value: 20
+
+------------END STATE-----------
+
+-----------------START STATE------------
+---------------------ID-----------------
+1
+----------Execution Stack: --------
+wH(v = 30)
+print(rh(v) + 5)
+print(rh(v))
+-------- Symbol Table: --------
+Key: v, Value: (1, int)
+
+---------- Output: -----------
+[]
+---------- File Table -----
+
+------------Heap-----------
+Key: 1, Value: 20
+
+------------END STATE-----------
+
+-----------------START STATE------------
+---------------------ID-----------------
+1
+----------Execution Stack: --------
+wH(v = 30)
+print(rh(v) + 5)
+
+-------- Symbol Table: --------
+Key: v, Value: (1, int)
+
+---------- Output: -----------
+[20]
+---------- File Table -----
+
+------------Heap-----------
+Key: 1, Value: 20
+
+------------END STATE-----------
+
+-----------------START STATE------------
+---------------------ID-----------------
+1
+----------Execution Stack: --------
+print(rh(v) + 5)wH(v = 30)
+-------- Symbol Table: --------
+Key: v, Value: (1, int)
+
+---------- Output: -----------
+[20]
+---------- File Table -----
+
+------------Heap-----------
+Key: 1, Value: 20
+
+------------END STATE-----------
+
+-----------------START STATE------------
+---------------------ID-----------------
+1
+----------Execution Stack: --------
+print(rh(v) + 5)
+-------- Symbol Table: --------
+Key: v, Value: (1, int)
+
+---------- Output: -----------
+[20]
+---------- File Table -----
+
+------------Heap-----------
+Key: 1, Value: 30
+
+------------END STATE-----------
+
+-----------------START STATE------------
+---------------------ID-----------------
+1
+----------Execution Stack: --------
+
+-------- Symbol Table: --------
+Key: v, Value: (1, int)
+
+---------- Output: -----------
+[20, 35]
+---------- File Table -----
+
+------------Heap-----------
+Key: 1, Value: 30
+
+------------END STATE-----------
+

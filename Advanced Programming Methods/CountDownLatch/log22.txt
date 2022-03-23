@@ -1,0 +1,7650 @@
+ID: 1
+Execution stack:
+Ref(int) v1; int cnt; new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+Ref(int) v1
+int cnt; new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+Ref(int) v1
+int cnt; new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+int cnt; new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+int cnt; new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+int cnt
+new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+int cnt
+new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+new(v1, 2)
+newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+new(v1, 2)
+newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+newToySemaphore(cnt; readHeap(v1); 1)
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+newToySemaphore(cnt; readHeap(v1); 1)
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt))
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt))
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt))
+acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt))
+acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10)
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10)
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+print(readHeap(v1))
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+print(readHeap(v1))
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+print(readHeap(v1) - 1)
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+print(readHeap(v1) - 1)
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10)
+writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10)
+writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 200
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 200
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 2)
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 200
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 2)
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 200
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 400
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 400
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+print(readHeap(v1))
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 400
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+print(readHeap(v1))
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 400
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 400
+
+Output:
+20
+19
+400
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 400
+
+Output:
+20
+19
+400
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 400
+
+Output:
+20
+19
+400
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+Ref(int) v1; int cnt; new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+Ref(int) v1
+int cnt; new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+Ref(int) v1
+int cnt; new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+int cnt; new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+int cnt; new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+int cnt
+new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+int cnt
+new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+new(v1, 2)
+newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+new(v1, 2)
+newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+newToySemaphore(cnt; readHeap(v1); 1)
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+newToySemaphore(cnt; readHeap(v1); 1)
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt))
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt))
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt))
+acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt))
+acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10)
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10)
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+print(readHeap(v1))
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+print(readHeap(v1))
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+print(readHeap(v1) - 1)
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+print(readHeap(v1) - 1)
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10)
+writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10)
+writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 200
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 200
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 2)
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 200
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 2)
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 200
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 400
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 400
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+print(readHeap(v1))
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 400
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+print(readHeap(v1))
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 400
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 400
+
+Output:
+20
+19
+400
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 400
+
+Output:
+20
+19
+400
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 400
+
+Output:
+20
+19
+400
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+Ref(int) v1; int cnt; new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+Ref(int) v1
+int cnt; new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+Ref(int) v1
+int cnt; new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+int cnt; new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+int cnt; new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+int cnt
+new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+int cnt
+new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+new(v1, 2)
+newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+new(v1, 2)
+newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+newToySemaphore(cnt; readHeap(v1); 1)
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+newToySemaphore(cnt; readHeap(v1); 1)
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt))
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt))
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt))
+acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt))
+acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10)
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10)
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+print(readHeap(v1))
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+print(readHeap(v1))
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+print(readHeap(v1) - 1)
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+print(readHeap(v1) - 1)
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10)
+writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10)
+writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 200
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 200
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 2)
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 200
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 2)
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 200
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 400
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 400
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+print(readHeap(v1))
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 400
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+print(readHeap(v1))
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 400
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 400
+
+Output:
+20
+19
+400
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 400
+
+Output:
+20
+19
+400
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 400
+
+Output:
+20
+19
+400
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+Ref(int) v1; int cnt; new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+Ref(int) v1
+int cnt; new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+Ref(int) v1
+int cnt; new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+int cnt; new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+int cnt; new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+int cnt
+new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+int cnt
+new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+new(v1, 2)
+newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+new(v1, 2)
+newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+newToySemaphore(cnt; readHeap(v1); 1)
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+newToySemaphore(cnt; readHeap(v1); 1)
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt))
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt))
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt))
+acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt))
+acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10)
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10)
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+print(readHeap(v1))
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+print(readHeap(v1))
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+print(readHeap(v1) - 1)
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+print(readHeap(v1) - 1)
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10)
+writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10)
+writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 200
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 200
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 2)
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 200
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 2)
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 200
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 400
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 400
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+print(readHeap(v1))
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 400
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+print(readHeap(v1))
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 400
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 400
+
+Output:
+20
+19
+400
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 400
+
+Output:
+20
+19
+400
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 400
+
+Output:
+20
+19
+400
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+Ref(int) v1; int cnt; new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+Ref(int) v1
+int cnt; new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+Ref(int) v1
+int cnt; new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+int cnt; new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+int cnt; new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+int cnt
+new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+int cnt
+new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+new(v1, 2); newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+new(v1, 2)
+newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+new(v1, 2)
+newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+newToySemaphore(cnt; readHeap(v1); 1); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+newToySemaphore(cnt; readHeap(v1); 1)
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+newToySemaphore(cnt; readHeap(v1); 1)
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)); fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt))
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt))
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)); acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt))
+acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt))
+acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt); print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt); writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10)
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10)
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 2
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+print(readHeap(v1))
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+print(readHeap(v1))
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+acquireToy(cnt)
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+print(readHeap(v1) - 1); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+print(readHeap(v1) - 1)
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+print(readHeap(v1) - 1)
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+acquireToy(cnt)
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10); writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10)
+writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 10)
+writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 20
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 200
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 2); print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 200
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 2)
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 200
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+writeHeap(v1, readHeap(v1) * 2)
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 200
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 400
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+print(readHeap(v1)); releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 400
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+print(readHeap(v1))
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 400
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+print(readHeap(v1))
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 400
+
+Output:
+20
+19
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 400
+
+Output:
+20
+19
+400
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+releaseToy(cnt)
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 400
+
+Output:
+20
+19
+400
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+
+Symbol table:
+cnt -> 1
+v1 -> (1, int)
+
+Heap table:
+1 -> 400
+
+Output:
+20
+19
+400
+
+File table:
+
+------------------------

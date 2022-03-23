@@ -1,0 +1,1229 @@
+ID: 1
+Execution stack:
+Ref(int) a; int v; new(a, 20); for (v = 0; v < 3; v = v + 1) 
+fork(print(v); v = v * readHeap(a)); print(readHeap(a))
+
+Symbol table:
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+Ref(int) a
+int v; new(a, 20); for (v = 0; v < 3; v = v + 1) 
+fork(print(v); v = v * readHeap(a)); print(readHeap(a))
+
+Symbol table:
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+Ref(int) a
+int v; new(a, 20); for (v = 0; v < 3; v = v + 1) 
+fork(print(v); v = v * readHeap(a)); print(readHeap(a))
+
+Symbol table:
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+int v; new(a, 20); for (v = 0; v < 3; v = v + 1) 
+fork(print(v); v = v * readHeap(a)); print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+int v; new(a, 20); for (v = 0; v < 3; v = v + 1) 
+fork(print(v); v = v * readHeap(a)); print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+int v
+new(a, 20); for (v = 0; v < 3; v = v + 1) 
+fork(print(v); v = v * readHeap(a)); print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+int v
+new(a, 20); for (v = 0; v < 3; v = v + 1) 
+fork(print(v); v = v * readHeap(a)); print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+new(a, 20); for (v = 0; v < 3; v = v + 1) 
+fork(print(v); v = v * readHeap(a)); print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 0
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+new(a, 20); for (v = 0; v < 3; v = v + 1) 
+fork(print(v); v = v * readHeap(a)); print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 0
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+new(a, 20)
+for (v = 0; v < 3; v = v + 1) 
+fork(print(v); v = v * readHeap(a)); print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 0
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+new(a, 20)
+for (v = 0; v < 3; v = v + 1) 
+fork(print(v); v = v * readHeap(a)); print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 0
+
+Heap table:
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+for (v = 0; v < 3; v = v + 1) 
+fork(print(v); v = v * readHeap(a)); print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 0
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+for (v = 0; v < 3; v = v + 1) 
+fork(print(v); v = v * readHeap(a)); print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 0
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+for (v = 0; v < 3; v = v + 1) 
+fork(print(v); v = v * readHeap(a))
+print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 0
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+for (v = 0; v < 3; v = v + 1) 
+fork(print(v); v = v * readHeap(a))
+print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 0
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+v = 0; while (v < 3){fork(print(v); v = v * readHeap(a)); v = v + 1}
+print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 0
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+v = 0; while (v < 3){fork(print(v); v = v * readHeap(a)); v = v + 1}
+print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 0
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+v = 0
+while (v < 3){fork(print(v); v = v * readHeap(a)); v = v + 1}
+print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 0
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+v = 0
+while (v < 3){fork(print(v); v = v * readHeap(a)); v = v + 1}
+print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 0
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+while (v < 3){fork(print(v); v = v * readHeap(a)); v = v + 1}
+print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 0
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+while (v < 3){fork(print(v); v = v * readHeap(a)); v = v + 1}
+print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 0
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(print(v); v = v * readHeap(a)); v = v + 1
+while (v < 3){fork(print(v); v = v * readHeap(a)); v = v + 1}
+print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 0
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(print(v); v = v * readHeap(a)); v = v + 1
+while (v < 3){fork(print(v); v = v * readHeap(a)); v = v + 1}
+print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 0
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(print(v); v = v * readHeap(a))
+v = v + 1
+while (v < 3){fork(print(v); v = v * readHeap(a)); v = v + 1}
+print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 0
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(print(v); v = v * readHeap(a))
+v = v + 1
+while (v < 3){fork(print(v); v = v * readHeap(a)); v = v + 1}
+print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 0
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+v = v + 1
+while (v < 3){fork(print(v); v = v * readHeap(a)); v = v + 1}
+print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 0
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+print(v); v = v * readHeap(a)
+
+Symbol table:
+a -> (1, int)
+v -> 0
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+v = v + 1
+while (v < 3){fork(print(v); v = v * readHeap(a)); v = v + 1}
+print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 0
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+print(v); v = v * readHeap(a)
+
+Symbol table:
+a -> (1, int)
+v -> 0
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+while (v < 3){fork(print(v); v = v * readHeap(a)); v = v + 1}
+print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 1
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+print(v)
+v = v * readHeap(a)
+
+Symbol table:
+a -> (1, int)
+v -> 0
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+while (v < 3){fork(print(v); v = v * readHeap(a)); v = v + 1}
+print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 1
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+print(v)
+v = v * readHeap(a)
+
+Symbol table:
+a -> (1, int)
+v -> 0
+
+Heap table:
+1 -> 20
+
+Output:
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(print(v); v = v * readHeap(a)); v = v + 1
+while (v < 3){fork(print(v); v = v * readHeap(a)); v = v + 1}
+print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 1
+
+Heap table:
+1 -> 20
+
+Output:
+0
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+v = v * readHeap(a)
+
+Symbol table:
+a -> (1, int)
+v -> 0
+
+Heap table:
+1 -> 20
+
+Output:
+0
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(print(v); v = v * readHeap(a)); v = v + 1
+while (v < 3){fork(print(v); v = v * readHeap(a)); v = v + 1}
+print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 1
+
+Heap table:
+1 -> 20
+
+Output:
+0
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+v = v * readHeap(a)
+
+Symbol table:
+a -> (1, int)
+v -> 0
+
+Heap table:
+1 -> 20
+
+Output:
+0
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(print(v); v = v * readHeap(a))
+v = v + 1
+while (v < 3){fork(print(v); v = v * readHeap(a)); v = v + 1}
+print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 1
+
+Heap table:
+1 -> 20
+
+Output:
+0
+
+File table:
+
+------------------------
+ID: 2
+Execution stack:
+
+Symbol table:
+a -> (1, int)
+v -> 0
+
+Heap table:
+1 -> 20
+
+Output:
+0
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(print(v); v = v * readHeap(a))
+v = v + 1
+while (v < 3){fork(print(v); v = v * readHeap(a)); v = v + 1}
+print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 1
+
+Heap table:
+1 -> 20
+
+Output:
+0
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+v = v + 1
+while (v < 3){fork(print(v); v = v * readHeap(a)); v = v + 1}
+print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 1
+
+Heap table:
+1 -> 20
+
+Output:
+0
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+print(v); v = v * readHeap(a)
+
+Symbol table:
+a -> (1, int)
+v -> 1
+
+Heap table:
+1 -> 20
+
+Output:
+0
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+v = v + 1
+while (v < 3){fork(print(v); v = v * readHeap(a)); v = v + 1}
+print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 1
+
+Heap table:
+1 -> 20
+
+Output:
+0
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+print(v); v = v * readHeap(a)
+
+Symbol table:
+a -> (1, int)
+v -> 1
+
+Heap table:
+1 -> 20
+
+Output:
+0
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+while (v < 3){fork(print(v); v = v * readHeap(a)); v = v + 1}
+print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 2
+
+Heap table:
+1 -> 20
+
+Output:
+0
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+print(v)
+v = v * readHeap(a)
+
+Symbol table:
+a -> (1, int)
+v -> 1
+
+Heap table:
+1 -> 20
+
+Output:
+0
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+while (v < 3){fork(print(v); v = v * readHeap(a)); v = v + 1}
+print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 2
+
+Heap table:
+1 -> 20
+
+Output:
+0
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+print(v)
+v = v * readHeap(a)
+
+Symbol table:
+a -> (1, int)
+v -> 1
+
+Heap table:
+1 -> 20
+
+Output:
+0
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(print(v); v = v * readHeap(a)); v = v + 1
+while (v < 3){fork(print(v); v = v * readHeap(a)); v = v + 1}
+print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 2
+
+Heap table:
+1 -> 20
+
+Output:
+0
+1
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+v = v * readHeap(a)
+
+Symbol table:
+a -> (1, int)
+v -> 1
+
+Heap table:
+1 -> 20
+
+Output:
+0
+1
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(print(v); v = v * readHeap(a)); v = v + 1
+while (v < 3){fork(print(v); v = v * readHeap(a)); v = v + 1}
+print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 2
+
+Heap table:
+1 -> 20
+
+Output:
+0
+1
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+v = v * readHeap(a)
+
+Symbol table:
+a -> (1, int)
+v -> 1
+
+Heap table:
+1 -> 20
+
+Output:
+0
+1
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(print(v); v = v * readHeap(a))
+v = v + 1
+while (v < 3){fork(print(v); v = v * readHeap(a)); v = v + 1}
+print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 2
+
+Heap table:
+1 -> 20
+
+Output:
+0
+1
+
+File table:
+
+------------------------
+ID: 3
+Execution stack:
+
+Symbol table:
+a -> (1, int)
+v -> 20
+
+Heap table:
+1 -> 20
+
+Output:
+0
+1
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+fork(print(v); v = v * readHeap(a))
+v = v + 1
+while (v < 3){fork(print(v); v = v * readHeap(a)); v = v + 1}
+print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 2
+
+Heap table:
+1 -> 20
+
+Output:
+0
+1
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+v = v + 1
+while (v < 3){fork(print(v); v = v * readHeap(a)); v = v + 1}
+print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 2
+
+Heap table:
+1 -> 20
+
+Output:
+0
+1
+
+File table:
+
+------------------------
+ID: 4
+Execution stack:
+print(v); v = v * readHeap(a)
+
+Symbol table:
+a -> (1, int)
+v -> 2
+
+Heap table:
+1 -> 20
+
+Output:
+0
+1
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+v = v + 1
+while (v < 3){fork(print(v); v = v * readHeap(a)); v = v + 1}
+print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 2
+
+Heap table:
+1 -> 20
+
+Output:
+0
+1
+
+File table:
+
+------------------------
+ID: 4
+Execution stack:
+print(v); v = v * readHeap(a)
+
+Symbol table:
+a -> (1, int)
+v -> 2
+
+Heap table:
+1 -> 20
+
+Output:
+0
+1
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+while (v < 3){fork(print(v); v = v * readHeap(a)); v = v + 1}
+print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 3
+
+Heap table:
+1 -> 20
+
+Output:
+0
+1
+
+File table:
+
+------------------------
+ID: 4
+Execution stack:
+print(v)
+v = v * readHeap(a)
+
+Symbol table:
+a -> (1, int)
+v -> 2
+
+Heap table:
+1 -> 20
+
+Output:
+0
+1
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+while (v < 3){fork(print(v); v = v * readHeap(a)); v = v + 1}
+print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 3
+
+Heap table:
+1 -> 20
+
+Output:
+0
+1
+
+File table:
+
+------------------------
+ID: 4
+Execution stack:
+print(v)
+v = v * readHeap(a)
+
+Symbol table:
+a -> (1, int)
+v -> 2
+
+Heap table:
+1 -> 20
+
+Output:
+0
+1
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 3
+
+Heap table:
+1 -> 20
+
+Output:
+0
+1
+2
+
+File table:
+
+------------------------
+ID: 4
+Execution stack:
+v = v * readHeap(a)
+
+Symbol table:
+a -> (1, int)
+v -> 2
+
+Heap table:
+1 -> 20
+
+Output:
+0
+1
+2
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+print(readHeap(a))
+
+Symbol table:
+a -> (1, int)
+v -> 3
+
+Heap table:
+1 -> 20
+
+Output:
+0
+1
+2
+
+File table:
+
+------------------------
+ID: 4
+Execution stack:
+v = v * readHeap(a)
+
+Symbol table:
+a -> (1, int)
+v -> 2
+
+Heap table:
+1 -> 20
+
+Output:
+0
+1
+2
+
+File table:
+
+------------------------
+ID: 1
+Execution stack:
+
+Symbol table:
+a -> (1, int)
+v -> 3
+
+Heap table:
+1 -> 20
+
+Output:
+0
+1
+2
+20
+
+File table:
+
+------------------------
+ID: 4
+Execution stack:
+
+Symbol table:
+a -> (1, int)
+v -> 40
+
+Heap table:
+1 -> 20
+
+Output:
+0
+1
+2
+20
+
+File table:
+
+------------------------
