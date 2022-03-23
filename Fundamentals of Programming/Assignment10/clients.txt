@@ -1,0 +1,9 @@
+1;Oltean Luca
+2;Moldovan Dan
+3;Pop Dan
+5;Rus Dan
+6;Rus Luca
+7;ana dana
+4;Rus Luca
+8;dana ana
+9;dan ana
