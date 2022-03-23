@@ -1,0 +1,5 @@
+POINTERS in C++,The Cherno,16:58,https://www.youtube.com/watch?v=DTxHyVn0ODg,17001
+Arrays in C++,The Cherno,18:30,https://www.youtube.com/watch?v=ENDaJi08jCU,61004
+REFERENCES in C++,The Cherno, 10:22,https://www.youtube.com/watch?v=IzoFn3dfsPA&list=RDCMUCQ-W1KE9EYfdxhL6S4twUNw&index=2,12000
+Stack vs Heap Memory in C++,The Cherno,19:30,https://www.youtube.com/watch?v=wJ1L2nSIV1s&list=RDCMUCQ-W1KE9EYfdxhL6S4twUNw&index=4,14588
+Virtual Functions in C++,The Cherno,06:45,https://www.youtube.com/watch?v=oIV2KchSyGQ&list=RDCMUCQ-W1KE9EYfdxhL6S4twUNw&index=9,6660
