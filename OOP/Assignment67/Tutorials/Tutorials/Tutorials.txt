@@ -1,0 +1,10 @@
+C++ Programming Tutorial 1 - Intro to C++;Caleb Curry;12:12;https://www.youtube.com/watch?v=OTroAxvRNbw;6690
+POINTERS in C++;The Cherno;16:58;https://www.youtube.com/watch?v=DTxHyVn0ODg;17000
+C++ Tutorial for Beginners;freeCodeCamp;01:18;https://www.youtube.com/watch?v=vLnPwxZdW4Y;133000
+Arrays in C++;The Cherno;18:30;https://www.youtube.com/watch?v=ENDaJi08jCU;61000
+Limbajul C++ Pentru Incepatori;SkyExpression.ro;24:07;http://www.youtube.com/watch?v=p5FXh2TsQLU;337
+Limbajul C++ Pentru Incepatori;SkyExpression.ro;24:07;http://www.youtube.com/watch?v=p5FXh2TsQLU;337
+Object-oriented Programming in 7 minutes;Mosh;7:13;https://www.youtube.com/watch?v=pTB0EiLXUC8;49000
+C++ Tutorial 2020;Derek banas;22:45;https://www.youtube.com/watch?v=6y0bp-mnYU0;45000
+Bjarne Stroustrup - The Essence of C++;The University of Edinburgh;29:10;https://www.youtube.com/watch?v=86xWVb4XIyE;96000
+C++ Tutorial 9:Lambda Expressions;Derek banas;25:20;https://www.youtube.com/watch?v=482weZjwVHY;769
