@@ -1,0 +1,5 @@
+﻿  UI.c
+C:\Users\Catinca\source\repos\a23-912-Cotor-Catinca\Agency\Agency\UI.c(30,9): warning C4101: 'e': unreferenced local variable
+C:\Users\Catinca\source\repos\a23-912-Cotor-Catinca\Agency\Agency\UI.c(154,20): warning C4047: '==': 'char [50]' differs in levels of indirection from 'int'
+C:\Users\Catinca\source\repos\a23-912-Cotor-Catinca\Agency\Agency\UI.c(252,59): warning C4305: 'function': truncation from 'double' to 'float'
+  Agency.vcxproj -> C:\Users\Catinca\source\repos\a23-912-Cotor-Catinca\Agency\Debug\Agency.exe
