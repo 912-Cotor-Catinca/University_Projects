@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Coffee Shop Page</title>
+<style>
+* {
+	box-sizing: border-box;
+}
+body{
+	background-color: #5c0606;
+}
+header{
+	padding: 10px;
+	text-align: left;
+	font-size: 20px;
+	color: white;
+	
+}
+ul{
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #855932;
+}
+li{
+	float:left;
+}
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+}
+aside{
+	width: 30%;
+	padding-left: 15px;
+	margin-left: 15px;
+	float:right;
+	background-color: #75563b; 
+}
+.column{
+	float: left;
+	width: 47%;
+	padding: 4px;
+}
+.column1{
+	float: left;
+	width: 20%;
+	padding: 6px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+footer{
+	background-color: #5e3e21;
+	padding: 5px;
+  	text-align: left;
+  	color: white;
+}
+table{
+	border: 1px solid white;
+}
+
+</style>
+</head>
+
+<body>
+<nav>
+<ul>
+	<li>
+		<header>
+		<h1><i>Coffee House</i></h1>
+		</header>
+	</li>
+	<li>
+		<svg height="90" width="200">
+  			<ellipse cx="100" cy="50" rx="50" ry="35" style="fill:rgb(212, 42, 42);" />
+  			<text fill="#ffffff" font-size="30" font-family="New Times Roman"
+  			x="68" y="58">Shop</text>
+		</svg>
+	</li>
+	<li>
+		<figure>
+			<img src="nice.jpg" style="width:20%;">
+			<figcaption style="color:white;">Fig.1 - Flowers, Have a nice day.</figcaption>
+		</figure>
+	</li>
+</ul>
+</nav>
+<hr>
+<nav>
+	<ul>
+		<li><a href='#home'>Home</a></li>
+		<li><a href='#news'>News</a></li>
+		<li><a href='#menu'>Menu</a></li>
+		<li><a href='#specials'>Specials</a></li>
+		<li><a href='#events'>Events</a></li>
+		<li><a href='#contact'>Contact</a></li>
+	</ul>
+</nav>
+<br>
+<aside>
+<div class="row">
+	<div class="column">
+		<img src="tel.png" alt="telephone" style="width: 60%">
+	</div>
+	<div class="column">
+		<p><b>Contact us:</b></p>
+		<p>Telephone: 0000-000-000</p>
+		<p>Email: <a href='#email'>coffeehouse@gmail.com</a></p>
+		<p>Address:Cluj-Napoca</p>
+	</div>
+</div>
+<div class="row">
+	<div class="column1">
+		<h2>You can follow us on:</h2>
+	</div>
+	<div class="column1">
+		<img src="insta.png" style="width:60%;">
+		<p><a href='#insta'>Insta</a></p>
+	</div>
+	<div class="column1">
+		<img src="fb.png" style="width:60%;">		
+		<p><a href='#fb'>facebook</a></p>
+	</div>
+</div>
+<div class="row">
+	<div class="column">
+		<h5>Our last youtube video</h5>
+	</div>
+	<div class="column">
+		<video width="200" controls>
+  			<source src="video1.mp4" type="video/mp4">
+		</video>
+	</div>
+</div>
+</aside>
+<main>
+<section>
+	<h3 style="color: white; font-size:20px; margin-left:5px"><i>Welcome!<i></h3>
+	<p style="color: white;font-size:15px;">A coffeehouse, coffee shop, or café is an establishment that primarily serves coffee of various types, e.g. espresso, latte, and cappuccino. Some coffeehouses may serve cold drinks, such as iced coffee, iced tea, and other non-caffeinated beverages. In continental Europe, cafés serve alcoholic drinks.</p>
+</section>
+
+<article>
+		<h4 style="color: white; font-size:20px; margin-left:5px">Shortly about us!</h4>
+		<p style="color: white;font-size:15px;">Our mission is to promote the specialty coffee industry. We roast coffee. We drink coffee. We learn about coffee. We share our knowledge about coffee. Our passion for specialty coffee is shared with farmers who closely monitor and control the growing, harvesting and processing stages of the coffee beans.</p>
+		<p style="color: white;font-size:15px;">The quality delivered is very important. The picking process can make the difference between a low-value commodity coffee and one destined for higher prices and more demanding markets. That is why we choose our coffee beans directly from the farm.</p>	
+</article>
+<p style="color: white;font-size:20px;"><b><i>Most Popular Coffee</i></b></p>
+
+<table style="width:60%; ">
+		<tr>
+			<th style="color: white;">Cappucino</th>
+			<th style="color: white;">Espresso</th>
+			<th style="color: white;">Latte</th>
+			<th style="color:white;">Frappe</th>
+		</tr>
+		<tr>
+			<td style="text-align:center;"><img src="c.jpg" style="width:20%;"></td>
+			<td style="text-align:center;"><img src="coffee.jpg" style="width:30%;"></td>
+			<td style="text-align:center;"><img src="latte.jpeg" style="width:20%;"></td>
+			<td style="text-align:center;"><img src="f.jpg" style="width:20%;"></td>
+		</tr>
+</table>
+<audio controls autoplay muted style="width: 200px;">
+	<source src="music.mp4" type="audio/mpeg">
+</audio>
+</main>
+<footer>
+	<p><i>Coffee Shop</i> &copy; 2022</p>
+</footer>
+</body>
+</html>

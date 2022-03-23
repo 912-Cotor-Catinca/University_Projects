@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	background-color: white;
+	font-family: cursive;
+	font-size: 40px;
+}
+#para{
+	font-family: Georgia, serif;
+	font-size: 25px;
+}
+#title{
+	color: #7ce688;
+	font-family: Georgia, serif;
+	font-size: 45px;
+	text-align: center;
+	text-decoration: underline;
+}
+#text-glow{
+	text-align: center;
+	text-shadow: 0 0 5px #95e600, 0 0 8px #a100e6;
+	color: white
+}
+.glow{
+	color: white;
+	text-align: center;
+	animation: glow 1s ease-in-out infinite;
+	font-size: 80px;
+}
+@-webkit-keyframes glow{
+	from{
+		text-shadow: 0 0 10px #fff, 0 0 20px #ed00f5, 0 0 30px #ed00f5, 0 0 40px #ed00f5,
+		0 0 50px #ed00f5, 0 0 60px #ed00f5, 0 0 70px #ed00f5;
+	}
+	to{ 
+		text-shadow: 0 0 20px #fff, 0 0 30px #f83bff, 0 0 40px #f83bff, 0 0 50px #f83bff,
+		0 0 60px #f83bff, 0 0 70px #f83bff, 0 0 80px #f83bff;
+	}
+}
+#text-shadow1{
+	color:white;
+	text-align:center;
+	text-shadow: 0 0 2px white, 0 0 25px #deff3b, 0 0 5px #9dff3b;
+	font-size: 40px;
+}
+#text-shadow2{
+	text-shadow: 5px 0px #718ee3;
+	text-align: center;
+	font-size: 40px;
+	color: #4457e3;
+}
+span {
+  color: #cc1f6d;
+  text-transform: lowercase;
+  vertical-align: middle;
+  letter-spacing: .2em;
+
+}
+
+h2{
+	text-align: center;
+	
+}
+
+#underline1{
+	text-decoration: underline;
+}
+#underline2{
+	text-decoration: overline;
+}
+#underline3{
+	text-decoration: line-through;
+}
+#underline4{
+	text-decoration: overline underline;
+}
+#underline5{
+	text-decoration: underline;
+	text-decoration-style: dotted;
+}
+#underline6{
+	text-decoration: underline;
+	text-decoration-style: double;
+}
+#underline7{
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	text-decoration-color: pink;
+}
+#underline8{
+	text-decoration: underline;
+	text-decoration-style: dashed;
+}
+#underline9{
+	text-decoration: underline;
+	text-decoration-style: wavy;
+}
+
+.fire {
+margin: 50px auto;
+width: 80%;
+max-width: 1000px;
+height: 100px;
+
+background-position: center center;
+background-size: 100px 200px;
+border-radius: 10px;
+font-family: ‘Akronim’;
+overflow: hidden;
+text-align: center;
+vertical-align: middle;
+
+}
+
+.fire:before {
+content: "";
+display: inline-block;
+height: 100%;
+vertical-align: middle;
+}
+
+.Blazing {
+display: inline-block;
+margin: 0;
+
+color: rgb(255, 115, 0);
+font-size: 100px;
+line-height: 50px;
+min-width: 50px;
+outline: none;
+vertical-align: middle;
+
+text-shadow:
+0 3px 20px red,
+0 0 20px red,
+0 0 10px orange,
+4px -5px 6px yellow,
+-4px -10px 10px yellow,
+0 -10px 30px yellow;
+animation: 2s Blazing infinite alternate linear;
+}
+
+@keyframes Blazing {
+0% { text-shadow: 0 3px 20px red, 0 0 20px red,
+0 0 10px orange,
+0 0 0 yellow,
+0 0 5px yellow,
+-2px -5px 5px yellow,
+4px -10px 10px yellow; }
+25% { text-shadow: 0 3px 20px red, 0 0 30px red,
+0 0 20px orange,
+0 0 5px yellow,
+-2px -5px 5px yellow,
+3px -10px 10px yellow,
+-4px -15px 20px yellow; }
+50% { text-shadow: 0 3px 20px red, 0 0 20px red,
+0 -5px 10px orange,
+-2px -5px 5px yellow,
+3px -10px 10px yellow,
+-4px -15px 20px yellow,
+2px -20px 30px rgba(255,255,0,0.5); }
+75% { text-shadow: 0 3px 20px red, 0 0 20px red,
+0 -5px 10px orange,
+3px -5px 5px yellow,
+-4px -10px 10px yellow,
+2px -20px 30px rgba(255,255,0,0.5),
+0px -25px 40px rgba(255,255,0,0)}
+100% { text-shadow: 0 3px 20px red, 0 0 20px red,
+0 0 10px orange,
+0 0 0 yellow,
+0 0 5px yellow,
+-2px -5px 5px yellow,
+4px -10px 10px yellow; }
+}
+
+#fire-text {
+	font-family: “Open Sans”, sans-serif;
+	color: #f5f5f5;
+	text-shadow: 0px -2px 4px #fff, 0px -2px 10px #FF3, 0px -10px 20px #F90, 0px -20px 40px #C33;
+	font-size: 100px;
+	text-align: center;
+}
+</style>
+</head>
+<body>
+<link href='https://fonts.googleapis.com/css?family=Amethysta' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Caesar+Dressing' rel='stylesheet' type='text/css'>
+<p id="title">TEXT EFFECTS</p>
+<p id="para">1.Fire Effect Text:</p>
+<div class="fire">
+	<h1 class="Blazing" contenteditable="true">FIRE</h1>
+</div>
+<p id="para">2.Glowing Effect Text:</p>
+<h3 id="text-glow">Glowing text</h1>
+<p class="glow"> More Glowing text</p>
+
+<p id="para">3.Shadow Effect Text:</p>
+<p id="text-shadow1">Text shadow effect!</p>
+<p id="text-shadow2"> Another text shadow effect!</p>
+
+<p id="para">4.Text-decoration effect:</p>
+<h2><span id="underline1">U</span><span id="underline2">n</span>
+	<span id="underline3">d</span><span id="underline4">e</span>
+	<span id="underline5">r</span><span id="underline6">l</span>
+	<span id="underline7">i</span><span id="underline8">n</span><span id="underline9">e</span>
+</h2>
+</body>
+</html>
+
+
